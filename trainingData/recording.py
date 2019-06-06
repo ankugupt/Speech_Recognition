@@ -21,12 +21,6 @@ stream = p.open(format=FORMAT,
 
 print("* Say Something for 60 seconds ")
 time.sleep(1)
-print("* WELCOME TO BARC")
-print("Promoted by three industry associations,to develop a reliable television audience measurement system for India")
-print("Broadcast Audience Research is a puzzle that has vexed broadcasters, advertisers, and advertising and media agencies in India for decades") 
-print("A country with an estimated television audience of 183 million homes and growing, needed to have credible information about television viewing habits.BARC India is solving this puzzle uniquely")
-print("Funded by the apex bodies representing the key stakeholders, it uses the latest technology in a transparent framework to give the Indian advertising and broadcast industry the ratings they so desperately need")
-print("We draw our inspiration from Rubik’s Cube, and invite you to join us in Solving the complex Puzzle of broadcast audience measurement")
 
 
 frames = []
