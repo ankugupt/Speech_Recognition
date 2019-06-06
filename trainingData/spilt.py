@@ -8,7 +8,7 @@ chunks = make_chunks(myaudio, chunk_length_ms) #Make chunks of one sec
 
 #Export all of the individual chunks as wav files
 
-file= open("trainingDataPath.txt","a+")
+file= open("trainingDataPath.txt","w+")
 
 for i, chunk in enumerate(chunks):
     chunk_name = (name + "_sample{0}.wav").format(i)
